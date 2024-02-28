@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Video Downloader</title>
+</head>
+<body>
+    <h1>Download YouTube Video</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Download</button>
+    </form>
+</body>
+</html>
